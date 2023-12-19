@@ -33,7 +33,7 @@ provider "yandex" {
   folder_id = var.folder_id
   zone      = var.default_zone
 }
-
+  
 
 
 module "vpc_dev" {
@@ -73,3 +73,4 @@ data "template_file" "cloudinit" {
   }
 }
 
+  
